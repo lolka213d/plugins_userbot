@@ -1846,6 +1846,123 @@ async def astralstep(client, message):
 	<b>Им не убить меня, so hard</b>
 	''')
 
+@Client.on_message(filters.command("man", ".") & filters.me)
+async def zoo(client, message):
+	await client.send_message(message.chat.id, f'''
+	<b>И я знаю, что такое страдать</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Ведь, я ощущал всё это тысячи раз…</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Раз, два, три, я в квартире один на полу</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Считаю до трёх, чтобы слишком быстро не уснуть</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Кто сказал, что человеку нужен человек?</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Всё это пиздеж, я уже давно живу в себе</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Раз, два, три, я в квартире один на полу</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Считаю до трёх, чтобы слишком быстро не уснуть</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Кто сказал, что человеку нужен человек?</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Всё это пиздеж, я уже давно живу в себе</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Молчит наш чат</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Говорю только с собой, и только по ночам</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>И пока остывал мой чай</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Ты задавала вопросы, я предпочитал молчать</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>О том, что у меня внутри, о том, что у меня болит</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>О том, что я хотел забыть, но так и не забыл, а-а</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>О том, что я хотел забыть, но так и не забыл, а-а</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Я считаю до трёх и мне не хорошо</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Тысячи ра—</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Раз, два, три, я в квартире один на полу</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Считаю до трёх, чтобы слишком быстро не уснуть</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Кто сказал, что человеку нужен человек?</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Всё это пиздеж, я уже давно живу в себе</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Раз, два, три, я в квартире один на полу</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Считаю до трёх, чтобы слишком быстро не уснуть</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Кто сказал, что человеку нужен человек?</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Всё это пиздеж, я уже давно живу в себе</b>
+	''')
+	await sleep(1)
+	await client.send_message(message.chat.id, f'''
+	<b>Раз, два, три</b>
+	''')
+
+	await sleep(5)
+	await message.delete()
+
 add_command_help(
 	"music",
 	[
@@ -1859,5 +1976,6 @@ add_command_help(
 		[".shadowfiend", "Shadowraze - Shadowfiend"],
 		[".zelglaz", "Минин - Зелёный глаз"],
 		[".kaif", "Konfuz - Кайф ты поймала "],
+		[".man", "cold carti - человеку нужен человек"]
 	]
 )
